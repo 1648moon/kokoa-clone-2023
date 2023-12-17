@@ -8,8 +8,9 @@
     margin-top:-15px;
 }
 
-#friends-display-link svg {
+#friends-display-link i {
     color: rgba(0, 0, 0, 0.3);
+    margin: 0 5px;
 }
 
 .friends-screen {
