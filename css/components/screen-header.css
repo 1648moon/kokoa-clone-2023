@@ -11,6 +11,9 @@
     font-weight: 600;
 }
 
+.screen-header__icons i {
+    margin-left: 20px;
+}
 
 @keyframes rotateCog {
     from {
