@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css"/> <!-- 스타일 파일 링크 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Talk</title>
+   
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons"></div>
+            <span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-gear fa-lg"></i>    
+            </span>
+    </header>
+
+ 
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span></div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Add by Contacts</span></div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>Add by ID</span></div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span></div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommmended Friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to OpenChat Home <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://www.hyundai.com/content/dam/hyundai/ww/en/images/worldcup/08-bts/worldcup-bts-stg-m.jpg" />
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://cdn.shopify.com/s/files/1/0601/4222/3545/files/EzoHnwvWQAI59zy_480x480.jpg?v=1655570443" />
+                        <div class="open-post__heart-count">
+                            <i class="fa-solid fa-heart fa-xs"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+    
+   
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html">
+                <i class="fa-regular fa-user fa-2x"></i>
+              </a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i> 
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
+              </svg>
+              </a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+              </svg>
+              </a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__newmore"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              </a></li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/9358bb4a2f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
