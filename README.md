@@ -1,8 +1,5 @@
 # Kokoa Clone 2023
 
-HTML & CSS are so much fun!
+It's a KakaoTalk clone project made with HTML & CSS
 
-<img src="screenshots/home.png" width="250">
-<img src="screenshots/chat.png" width="250">
-<img src="screenshots/find.png" width="250">
-<img src="screenshots/more.png" width="250">
+<img src="screenshots/kokoa_clone.png">
